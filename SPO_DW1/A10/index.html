@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário com Máscaras e Validação</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.min.css" integrity="sha512-xiunq9hpKsIcz42zt0o2vCo34xV0j6Ny8hgEylN3XBglZDtTZ2nwnqF/Z/TTCc18sGdvCjbFInNd++6q3J0N6g==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form id="form">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required data-js="text">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required data-js="email">
+
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone" required data-js="phone">
+
+        <label for="cpf">CPF:</label>
+        <input type="text" id="cpf" name="cpf" required data-js="cpf">
+
+        <label for="endereco">Endereço:</label>
+        <input type="text" id="endereco" name="endereco" required data-js="text">
+
+        <button type="submit">Enviar</button>
+    </form>
+    <script src="app.js"></script>
+</body>
+</html>
